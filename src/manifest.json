@@ -1,0 +1,16 @@
+{
+  "name":"ZhiHu Fold Highlight",
+  "manifest_version": 2,
+  "version":"1.0",
+  "description":"知乎高亮收起按钮,看知乎的时候再也不用担心找不到收起按钮了。",
+
+  "content_scripts":[{
+    "all_frames":true,
+    "css":["css/fldhlt.css"],
+    "matches":["https://*.zhihu.com/*"],
+    "run_at": "document_end"
+    }],
+  "permissions":[
+    "https://*.zhihu.com/*"
+  ]
+}
