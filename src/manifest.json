@@ -1,7 +1,7 @@
 {
   "name":"知乎收起按钮高亮",
   "manifest_version": 2,
-  "version":"2.0",
+  "version":"2.0.1",
   "description":"知乎高亮收起按钮,看知乎的时候再也不用担心找不到收起按钮了。",
   "icons":{
     "64":"img/zhihu_64.png"
