@@ -3,7 +3,9 @@
   "manifest_version": 2,
   "version":"2.0",
   "description":"知乎高亮收起按钮,看知乎的时候再也不用担心找不到收起按钮了。",
-
+  "icons":{
+    "64":"img/zhihu_64.png"
+  },
   "content_scripts":[{
     "all_frames":true,
     "css":["css/fldhlt.css"],
